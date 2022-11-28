@@ -1,0 +1,45 @@
+.skillsContainer {
+    scroll-margin-block-start: 80px;
+}
+
+.skillsContainer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    /* color: rgb(38, 166, 154); */
+    color: #FFAC00;
+    margin-bottom: 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.imageWrapper {
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    padding-left: 18px;
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    width: 200px;
+
+}
+
+.imageWrapper:hover {
+    transform: scale(1.15);
+}
+
+.imageWrapper div {
+    font-size: 20px;
+}

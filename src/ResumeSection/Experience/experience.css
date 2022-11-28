@@ -1,0 +1,58 @@
+.experienceContainer {
+    scroll-margin-block-start: 80px;
+}
+
+.experienceContainer h2 {
+    color: #FFAC00;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.experienceContainer .exprerienceHeading {
+    margin-bottom: 50px;
+}
+
+.experienceDetails {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+}
+
+.experienceDetails svg {
+    background: rgb(38, 166, 154);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+.experienceDetails h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.experienceDetails ul li {
+    color: darkgray;
+}
+
+.experienceDuration {
+    color: rgb(38, 166, 154);
+}
+
+.experienceDetails h4 {
+    color: darkgoldenrod;
+}
+
+.experienceIcon {
+    position: relative;
+}
+.experienceDetails .border {
+    content: "";
+    position: absolute;
+    left: 24px;
+    border-left: 1px solid rgb(38, 166, 154);
+    top: 48px;
+    width: 1px;
+    height: calc(100% + 10px);
+}

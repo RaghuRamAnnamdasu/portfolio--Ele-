@@ -1,0 +1,60 @@
+.educationContainer {
+    scroll-margin-block-start: 80px;
+    margin: 40px 0;
+}
+
+.educationContainer .educationHeading {
+    margin-bottom: 50px;
+}
+
+.educationContainer h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #FFAC00;
+    margin: 0;
+}
+
+.educationRightNavDetails {
+    display: grid;
+    gap: 12px;
+}
+
+.educationDetails {
+    display: flex;
+    gap: 24px;
+    padding-bottom: 28px;
+    margin-bottom: 30px;
+}
+
+.educationDetails svg {
+    background: rgb(38, 166, 154);
+    padding: 12px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.educationDetails h2 {
+    color: #fff;
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.qualification {
+    color: darkgoldenrod;
+    font-size: 18px;
+    font-weight: 700;
+}
+.educationIcon {
+    position: relative;
+}
+.educationDetails .border {
+    content: "";
+    position: absolute;
+    left: 24px;
+    border-left: 1px solid rgb(38, 166, 154);
+    top: 48px;
+    width: 1px;
+    height: calc(100% + 10px);
+}

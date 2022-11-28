@@ -1,0 +1,85 @@
+.aboutSectionContainer {
+    scroll-margin-block-start: 80px;
+    display: flex;
+    /* padding: 16px 70px; */
+    gap: 40px;
+    /* background: #242424;
+    color: #fff; */
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutMe {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #FFAC00;
+    margin-bottom: 30px;
+}
+
+.aboutMeDescription {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.info {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 24px;
+}
+
+.name,
+.email,
+.phone,
+.country {
+    font-weight: 600;
+    color: #6EC5B8;
+    /* font-size: 23px; */
+}
+
+.info span {
+    font-size: 23px;
+    /* font-weight: 600; */
+}
+
+.downloadResumeWrapper {
+    height: 38px;
+    display: grid;
+    width: fit-content;
+}
+
+.downloadResume {
+    background: rgb(38, 166, 154);
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    cursor : pointer;
+}
+
+.profileImage {
+    background-image: url(profileImage.jpg);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.aboutRightSection {
+    margin-left: 28px;
+}
+
+.emailText {
+    word-break: break-all;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutRightSection {
+        margin-left: 0;
+    }
+
+    .profileImage {
+        height: 300px;
+    }
+}

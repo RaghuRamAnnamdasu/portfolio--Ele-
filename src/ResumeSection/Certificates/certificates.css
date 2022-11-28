@@ -1,0 +1,10 @@
+.certificatesContainer {
+    scroll-margin-block-start: 80px;
+}
+
+.certificatesContainer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFAC00;
+    margin-bottom: 50px;
+}
